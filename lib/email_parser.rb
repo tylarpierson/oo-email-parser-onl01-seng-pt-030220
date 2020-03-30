@@ -9,6 +9,6 @@ class EmailAddressParser
     @email_addresses = (","), (" ")
   end 
   def parse 
-    
+    @email_addresses.unique!
   end 
 end 
